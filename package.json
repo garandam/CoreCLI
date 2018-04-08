@@ -1,0 +1,31 @@
+{
+  "name": "corecli",
+  "version": "0.0.0",
+  "description": "Create the Core DevEnv",
+  "main": "dist/cli",
+  "bin": "./dist/cli.js",
+  "preferGlobal": true,
+  "types": "dist/cli",
+  "typings": "./dist/cli.d.ts",
+  "scripts": {
+    "tsc": "npx tsc",
+    "tsc:w": "npx tsc -w",
+    "build": "npm run tsc & npm link"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Grischa Aranda Muñoz",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "clear": "^0.1.0",
+    "commander": "^2.15.1",
+    "figlet": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.2",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  }
+}
