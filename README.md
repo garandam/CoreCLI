@@ -1,6 +1,7 @@
 # CoreCLI
 
 ## Build steps for the CoreCLI
+```sh
 $ mkdir ccli
 $ cd ccli
 $ git init
@@ -8,6 +9,7 @@ $ npm init
 $ npm install --save-dev typescript
 $ npm install --save-dev @types/node 
 $ npm install --save clear chalk commander figlet
+```
 
 ## CoreCLI dependencies
 - clear
@@ -21,9 +23,9 @@ $ npm install --save clear chalk commander figlet
 
 ## Which steps to do, to use this CLI
 - make project changes
-- $ npm run tsc or $ npx tsc
-- $ npm link
-- $ corecli ...
+- `$ npm run tsc or $ npx tsc`
+- `$ npm link`
+- `$ corecli ...`
 
 ## Description
 `$ npm link`
